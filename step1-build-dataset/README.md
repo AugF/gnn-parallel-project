@@ -1,5 +1,4 @@
-
-https://docs.qq.com/doc/DQ0tOaU52TFdkcGhCora dataset
+﻿https://docs.qq.com/doc/DQ0tOaU52TFdkcGhCora dataset
 ## 1. 格式说明
 
 dataset/raw/ 
@@ -21,8 +20,13 @@ dataset/raw/
 4. gen_dense_x.py: 生成稠密特征
 
 ### examples
-这里以cora 数据集为例 
 
-1. train_nodes: 20 * classes
-2. validing nodes: 500
-3. test nodes: 1000
+基本顶点，边的数量
+nodes, edges = 52910.0529 * factor, 100000 * factor
+
+medium1, factor=1
+medium10, factor = 10
+medium100, factor = 100
+medium1000, factor = 1000
+larger. factor = 10000
+  
