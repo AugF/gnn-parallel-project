@@ -2,7 +2,13 @@
 
 ## 图神经网络训练系统瓶颈分析
 
-已完成
+已完成，源代码见pyg_gnns, pyg_analysis
+
+论文：Empirical Exploration of the Performance Bottleneck in Graph Neural Network Training, Future Generation Computer System在投
+
+关键发现：
+1. 边计算是核心性能瓶颈
+2. 采样技术是解决大规模图的关键手段，但是还不够高效
 
 ## Training阶段的优化
 
